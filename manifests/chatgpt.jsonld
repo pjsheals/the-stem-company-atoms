@@ -29,12 +29,12 @@
         "name": "The Stem Company"
     },
     "sourceProbeRun": {
-        "probeId": "1165",
+        "probeId": "1018",
         "probeTypes": [
-            "anchored_4turn"
+            "generic_4turn"
         ],
         "platform": "chatgpt",
-        "executedAt": "2026-05-31T07:19:14+00:00"
+        "executedAt": "2026-05-17T08:18:18+00:00"
     },
     "atomCount": 3,
     "filterCoverage": [
@@ -48,7 +48,8 @@
             "filterType": "T0",
             "url": "https://aivomeridian.com/atoms/the-stem-company/T0/chatgpt-v2.jsonld",
             "failureMode": "category_drift",
-            "lastModified": "2026-06-01T15:28:53+00:00"
+            "doi": "10.5281/zenodo.20410975",
+            "lastModified": "2026-06-01T15:35:17+00:00"
         },
         {
             "@type": "aivo:DisplacementAtom",
