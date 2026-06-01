@@ -48,7 +48,8 @@
             "filterType": "T0",
             "url": "https://aivomeridian.com/atoms/the-stem-company/T0/gemini-v3.jsonld",
             "failureMode": "category_drift",
-            "lastModified": "2026-06-01T15:29:27+00:00"
+            "doi": "10.5281/zenodo.20410975",
+            "lastModified": "2026-06-01T15:38:27+00:00"
         },
         {
             "@type": "aivo:DisplacementAtom",
@@ -57,7 +58,7 @@
             "url": "https://aivomeridian.com/atoms/the-stem-company/T0/gemini-v2.jsonld",
             "failureMode": "category_drift",
             "doi": "10.5281/zenodo.20410975",
-            "lastModified": "2026-06-01T15:37:13+00:00"
+            "lastModified": "2026-06-01T15:37:18+00:00"
         },
         {
             "@type": "aivo:DisplacementAtom",
