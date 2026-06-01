@@ -1,0 +1,71 @@
+{
+    "@context": [
+        "https://schema.org",
+        {
+            "aivo": "https://aivostandard.org/ns/v1#"
+        }
+    ],
+    "@type": [
+        "DataCatalog",
+        "aivo:RepairAtomManifest"
+    ],
+    "@id": "https://aivomeridian.com/atoms/the-stem-company/manifests/gemini.jsonld",
+    "name": "The Stem Company — Gemini repair atom manifest",
+    "description": "Per-platform repair atom manifest for The Stem Company on Gemini. 3 atoms across filters: T0, T1.",
+    "schemaVersion": "aivo-mas-2.0",
+    "manifestVersion": "1.0",
+    "platform": "gemini",
+    "publisher": {
+        "@type": "Organization",
+        "name": "AIVO Research Intelligence Platform",
+        "url": "https://aivostandard.org"
+    },
+    "datePublished": "2026-06-01",
+    "dateModified": "2026-06-01",
+    "license": "CC-BY-4.0",
+    "about": {
+        "@type": "Organization",
+        "@id": "https://aivomeridian.com/atoms/the-stem-company-2026-05/#the-stem-company",
+        "name": "The Stem Company"
+    },
+    "sourceProbeRun": {
+        "probeId": "1022",
+        "probeTypes": [
+            "generic_4turn"
+        ],
+        "platform": "gemini",
+        "executedAt": "2026-05-17T08:19:15+00:00"
+    },
+    "atomCount": 3,
+    "filterCoverage": [
+        "T0",
+        "T1"
+    ],
+    "atoms": [
+        {
+            "@type": "aivo:DisplacementAtom",
+            "@id": "atom:the-stem-company:T0:gemini:v3",
+            "filterType": "T0",
+            "url": "https://aivomeridian.com/atoms/the-stem-company/T0/gemini-v3.jsonld",
+            "failureMode": "category_drift",
+            "lastModified": "2026-06-01T15:29:27+00:00"
+        },
+        {
+            "@type": "aivo:DisplacementAtom",
+            "@id": "atom:the-stem-company:T0:gemini:v2",
+            "filterType": "T0",
+            "url": "https://aivomeridian.com/atoms/the-stem-company/T0/gemini-v2.jsonld",
+            "failureMode": "category_drift",
+            "doi": "10.5281/zenodo.20410975",
+            "lastModified": "2026-06-01T15:37:13+00:00"
+        },
+        {
+            "@type": "aivo:DisplacementAtom",
+            "@id": "atom:the-stem-company:T1:gemini:v2",
+            "filterType": "T1",
+            "url": "https://aivomeridian.com/atoms/the-stem-company/T1/gemini-v2.jsonld",
+            "failureMode": "authority_gap",
+            "lastModified": "2026-06-01T15:32:00+00:00"
+        }
+    ]
+}
