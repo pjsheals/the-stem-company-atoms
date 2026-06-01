@@ -29,12 +29,12 @@
         "name": "The Stem Company"
     },
     "sourceProbeRun": {
-        "probeId": "1022",
+        "probeId": "1035",
         "probeTypes": [
-            "generic_4turn"
+            "anchored_4turn"
         ],
         "platform": "gemini",
-        "executedAt": "2026-05-17T08:19:15+00:00"
+        "executedAt": "2026-05-17T09:41:06+00:00"
     },
     "atomCount": 3,
     "filterCoverage": [
@@ -67,7 +67,7 @@
             "url": "https://aivomeridian.com/atoms/the-stem-company/T1/gemini-v2.jsonld",
             "failureMode": "authority_gap",
             "doi": "10.5281/zenodo.20410975",
-            "lastModified": "2026-06-01T15:42:50+00:00"
+            "lastModified": "2026-06-01T15:42:54+00:00"
         }
     ]
 }
