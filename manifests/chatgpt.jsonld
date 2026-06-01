@@ -49,7 +49,7 @@
             "url": "https://aivomeridian.com/atoms/the-stem-company/T0/chatgpt-v2.jsonld",
             "failureMode": "category_drift",
             "doi": "10.5281/zenodo.20410975",
-            "lastModified": "2026-06-01T15:35:17+00:00"
+            "lastModified": "2026-06-01T15:35:21+00:00"
         },
         {
             "@type": "aivo:DisplacementAtom",
@@ -66,7 +66,8 @@
             "filterType": "T1",
             "url": "https://aivomeridian.com/atoms/the-stem-company/T1/chatgpt-v2.jsonld",
             "failureMode": "competitive_displacement",
-            "lastModified": "2026-06-01T15:30:39+00:00"
+            "doi": "10.5281/zenodo.20410975",
+            "lastModified": "2026-06-01T15:41:20+00:00"
         }
     ]
 }
