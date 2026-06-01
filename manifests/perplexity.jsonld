@@ -11,7 +11,7 @@
     ],
     "@id": "https://aivomeridian.com/atoms/the-stem-company/manifests/perplexity.jsonld",
     "name": "The Stem Company — Perplexity repair atom manifest",
-    "description": "Per-platform repair atom manifest for The Stem Company on Perplexity. 2 atoms across filters: T1, T3.",
+    "description": "Per-platform repair atom manifest for The Stem Company on Perplexity. 3 atoms across filters: T1, T3.",
     "schemaVersion": "aivo-mas-2.0",
     "manifestVersion": "1.0",
     "platform": "perplexity",
@@ -29,14 +29,14 @@
         "name": "The Stem Company"
     },
     "sourceProbeRun": {
-        "probeId": "1028",
+        "probeId": "1161",
         "probeTypes": [
-            "generic_4turn"
+            "anchored_4turn"
         ],
         "platform": "perplexity",
-        "executedAt": "2026-05-17T08:23:22+00:00"
+        "executedAt": "2026-05-31T07:23:18+00:00"
     },
-    "atomCount": 2,
+    "atomCount": 3,
     "filterCoverage": [
         "T1",
         "T3"
@@ -49,7 +49,7 @@
             "url": "https://aivomeridian.com/atoms/the-stem-company/T1/perplexity-v2.jsonld",
             "failureMode": "competitive_displacement",
             "doi": "10.5281/zenodo.20410975",
-            "lastModified": "2026-06-01T15:44:16+00:00"
+            "lastModified": "2026-06-01T15:44:21+00:00"
         },
         {
             "@type": "aivo:DisplacementAtom",
@@ -59,6 +59,14 @@
             "failureMode": "competitive_displacement",
             "doi": "10.5281/zenodo.20410975",
             "lastModified": "2026-05-27T11:23:27+00:00"
+        },
+        {
+            "@type": "aivo:DisplacementAtom",
+            "@id": "atom:the-stem-company:T3:perplexity:v3",
+            "filterType": "T3",
+            "url": "https://aivomeridian.com/atoms/the-stem-company/T3/perplexity-v3.jsonld",
+            "failureMode": "competitive_displacement",
+            "lastModified": "2026-06-01T15:49:56+00:00"
         }
     ]
 }
