@@ -44,15 +44,6 @@
     "atoms": [
         {
             "@type": "aivo:DisplacementAtom",
-            "@id": "atom:the-stem-company:T0:gemini:v3",
-            "filterType": "T0",
-            "url": "https://aivomeridian.com/atoms/the-stem-company/T0/gemini-v3.jsonld",
-            "failureMode": "category_drift",
-            "doi": "10.5281/zenodo.20410975",
-            "lastModified": "2026-06-01T15:38:27+00:00"
-        },
-        {
-            "@type": "aivo:DisplacementAtom",
             "@id": "atom:the-stem-company:T0:gemini:v2",
             "filterType": "T0",
             "url": "https://aivomeridian.com/atoms/the-stem-company/T0/gemini-v2.jsonld",
@@ -62,11 +53,21 @@
         },
         {
             "@type": "aivo:DisplacementAtom",
+            "@id": "atom:the-stem-company:T0:gemini:v3",
+            "filterType": "T0",
+            "url": "https://aivomeridian.com/atoms/the-stem-company/T0/gemini-v3.jsonld",
+            "failureMode": "category_drift",
+            "doi": "10.5281/zenodo.20410975",
+            "lastModified": "2026-06-01T15:38:32+00:00"
+        },
+        {
+            "@type": "aivo:DisplacementAtom",
             "@id": "atom:the-stem-company:T1:gemini:v2",
             "filterType": "T1",
             "url": "https://aivomeridian.com/atoms/the-stem-company/T1/gemini-v2.jsonld",
             "failureMode": "authority_gap",
-            "lastModified": "2026-06-01T15:32:00+00:00"
+            "doi": "10.5281/zenodo.20410975",
+            "lastModified": "2026-06-01T15:42:50+00:00"
         }
     ]
 }
