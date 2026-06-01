@@ -1,0 +1,54 @@
+{
+    "@context": [
+        "https://schema.org",
+        {
+            "aivo": "https://aivostandard.org/ns/v1#"
+        }
+    ],
+    "@type": [
+        "DataCatalog",
+        "aivo:RepairAtomManifest"
+    ],
+    "@id": "https://aivomeridian.com/atoms/the-stem-company/manifests/chatgpt.jsonld",
+    "name": "The Stem Company — ChatGPT repair atom manifest",
+    "description": "Per-platform repair atom manifest for The Stem Company on ChatGPT. 1 atoms across filters: T0.",
+    "schemaVersion": "aivo-mas-2.0",
+    "manifestVersion": "1.0",
+    "platform": "chatgpt",
+    "publisher": {
+        "@type": "Organization",
+        "name": "AIVO Research Intelligence Platform",
+        "url": "https://aivostandard.org"
+    },
+    "datePublished": "2026-06-01",
+    "dateModified": "2026-06-01",
+    "license": "CC-BY-4.0",
+    "about": {
+        "@type": "Organization",
+        "@id": "https://aivomeridian.com/atoms/the-stem-company-2026-05/#the-stem-company",
+        "name": "The Stem Company"
+    },
+    "sourceProbeRun": {
+        "probeId": "1018",
+        "probeTypes": [
+            "generic_4turn"
+        ],
+        "platform": "chatgpt",
+        "executedAt": "2026-05-17T08:18:18+00:00"
+    },
+    "atomCount": 1,
+    "filterCoverage": [
+        "T0"
+    ],
+    "atoms": [
+        {
+            "@type": "aivo:DisplacementAtom",
+            "@id": "atom:the-stem-company:T0:chatgpt:v3",
+            "filterType": "T0",
+            "url": "https://aivomeridian.com/atoms/the-stem-company/T0/chatgpt-v3.jsonld",
+            "failureMode": "category_drift",
+            "doi": "10.5281/zenodo.20410975",
+            "lastModified": "2026-06-01T15:27:29+00:00"
+        }
+    ]
+}
